@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 32px;
+}
+
+h3 {
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color:#987654;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif, Arial;
+}
+
+.photo {
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sections {
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color:#987654;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif, Arial;
+}
