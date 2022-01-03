@@ -1,3 +1,4 @@
+/* headlines */
 h1 {
     text-align: center;
     letter-spacing: 0.2em;
@@ -12,13 +13,7 @@ h2 {
     text-align: center;
 }
 
-header {
-    background-color:#987654;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    color: white;
-    font-family: sans-serif, Arial;
-}
+/* image */
 
 .photo {
     width: 400px;
@@ -27,6 +22,10 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+img {
+    border-radius: 20px;
 }
 
 .sections {
@@ -41,8 +40,21 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:black;
+}
+
+header {
+    background-color:#987654;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif, Arial;
+}
+
 footer {
-    background-color:#987654; 
+    background-color:#987654;
     padding: 15px 15px 15px 15px;
     text-align: center;
     color: white;
